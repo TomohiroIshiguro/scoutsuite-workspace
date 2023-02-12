@@ -1,0 +1,3 @@
+[submodule "ScoutSuite"]
+	path = ScoutSuite
+	url = https://github.com/nccgroup/ScoutSuite.git
