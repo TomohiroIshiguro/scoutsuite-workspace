@@ -8,6 +8,7 @@ ss-setup:
 	  docker-compose up --build
 
 scout-aws:
+	make ss-setup
 	rm -Rf output
 	docker run --name scoutsuite -it --rm \
 	  -v "$(shell pwd)/config/aws/credentials":/root/.aws/credentials:ro \
